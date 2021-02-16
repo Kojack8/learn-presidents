@@ -12,6 +12,8 @@ class QuestionsController < ApplicationController
   end
 
   def answer
+    @question = Question.find(params[:guess])
+  
 
   end
   
