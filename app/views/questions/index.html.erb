@@ -3,10 +3,10 @@
 <body> Is this more text?
 
 
-<form>
-  <label for="guess">Enter your guess:</label><br>
-  <input type="text" id="guess" name="guess"><br>
-  <input type="submit", value="Submit">
-</form>
+<%= form_with url: "/answer", method: :get do |form| %>
+  <br> <%= form.label :query, "Enter guess:" %>
+  <%= form.text_field :query %><br>
+  <%= form.submit "Submit" %>
+<% end %>
 
 </body>

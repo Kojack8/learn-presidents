@@ -11,6 +11,9 @@ class QuestionsController < ApplicationController
     @question = Question.new
   end
 
+  def answer
+
+  end
   
 
   private
