@@ -13,7 +13,6 @@ class QuestionsController < ApplicationController
 
   def answer
     @question = Question.find(params[:guess])
-  
 
   end
   
