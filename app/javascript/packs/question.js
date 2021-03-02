@@ -4,3 +4,4 @@ function checkAnswer() {
   var guess = document.getElementById("guess").value;
   alert(guess);
 }
+

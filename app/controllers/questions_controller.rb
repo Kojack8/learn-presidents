@@ -12,7 +12,7 @@ class QuestionsController < ApplicationController
   end
 
   def answer
-    @question = Question.where(:name params[:guess])
+    @question = Question.where(name: params[:guess])
   end
   
 
