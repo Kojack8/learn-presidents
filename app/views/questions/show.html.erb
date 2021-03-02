@@ -1,6 +1,8 @@
 <%= stylesheet_link_tag :questions %>
 
-<h1><%= @question.name %></h1>
+<h1><%= "President number " + @question.number.to_s %></h1>
+
+<h2><%= @question.name %></h2>
 
 <p><%= @question.hint_1 %></p>
 
@@ -11,11 +13,13 @@
 
 
 
-<%= form_with url: "/answer", id: :guess, method: :get do |form| %>
+<%= form_with url: "/answer", id: :myGuess, method: :get do |form| %>
   <br> <%= form.label :guess, "Enter guess:" %>
   <%= form.text_field :guess %><br>
   <%= form.submit "Submit" %>
   
 <% end %>
+
+
 
 <%= javascript_pack_tag 'question' %>

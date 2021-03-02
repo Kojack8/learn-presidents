@@ -1,6 +1,6 @@
-document.getElementById("guess").addEventListener("submit", checkAnswer)
+document.getElementById("myGuess").addEventListener("submit", checkAnswer)
 
 function checkAnswer() {
-  console.log(input);
-  alert("shits fucked bro")
+  var guess = document.getElementById("guess").value;
+  alert(guess);
 }

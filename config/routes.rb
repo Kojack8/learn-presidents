@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root "welcome#index"
 
+
   get "/welcome", to: "welcome#index"
   get "/answer/", to: "questions#answer"
   get "/questions", to: "questions#index"
