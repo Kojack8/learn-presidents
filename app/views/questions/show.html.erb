@@ -13,7 +13,7 @@
 
 
 
-<%= form_with url: "/answer", id: :myGuess, method: :get do |form| %>
+<%= form_with url: "/questions/answer", id: :myGuess, method: :get do |form| %>
   <br> <%= form.label :guess, "Enter guess:" %>
   <%= form.text_field :guess %><br>
   <%= form.submit "Submit" %>

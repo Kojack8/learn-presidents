@@ -12,7 +12,7 @@ class QuestionsController < ApplicationController
   end
 
   def answer
-    @question = Question.where(name: params[:guess])
+    @question = Question.where(:name params[:guess])
     
 
   end
@@ -22,4 +22,5 @@ class QuestionsController < ApplicationController
     def article_params
       params.require(:question).permit(:name)
     end
+
 end
