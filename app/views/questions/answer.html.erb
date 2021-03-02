@@ -6,3 +6,8 @@
 <h1> yo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! </h1>>
 
 <h2><%= @question.first.name %></h2>
+
+<body>
+<%= i = @question.first.id %>
+<%= link_to "Proceed to next question", "/questions/#{i+1}" %>
+</body>

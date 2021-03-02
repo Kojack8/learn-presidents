@@ -13,8 +13,6 @@ class QuestionsController < ApplicationController
 
   def answer
     @question = Question.where(:name params[:guess])
-    
-
   end
   
 
