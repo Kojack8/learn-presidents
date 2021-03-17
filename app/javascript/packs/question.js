@@ -16,11 +16,6 @@ function revealHint() {
   else if (window.getComputedStyle(hint_3).display === 'none'){
     hint_3.style.display = 'block';
   }
-  else{
-    alert("nah")
-  }
-  
-
 }
 
 
