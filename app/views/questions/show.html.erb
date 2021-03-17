@@ -1,6 +1,7 @@
 <%= stylesheet_link_tag :questions %>
 
-<h1><%= "President number " + @question.number.to_s %></h1>
+<h1><%= "President number " + @question.number.to_s %><br>
+</h1>
 
 <h2><%= @question.name %></h2>
 
@@ -21,5 +22,5 @@
 <% end %>
 
 
-
 <%= javascript_pack_tag 'question' %>
+
