@@ -1,16 +1,23 @@
 <%= stylesheet_link_tag :questions %>
 
-<h1><%= "President number " + @question.number.to_s %><br>
+<h1><%= "President number " + @question.id.to_s %><br>
 </h1>
 
 <h2><%= @question.name %></h2>
 
-<p><%= @question.hint_1 %></p>
+<div class = 'hint-button'>
+  <button id = 'hint'> HINT </button>
+</div>
 
-<p><%= @question.hint_2 %></p>
+<div class = 'hint_table'>
+  
+  <%= @question.hint_1 %> <br>
 
-<p><%= @question.hint_3 %></p>
+  <%= @question.hint_2 %> <br>
 
+  <%= @question.hint_3 %> <br>
+
+</div>
 
 
 
