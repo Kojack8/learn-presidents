@@ -1,9 +1,6 @@
 document.getElementById("myGuess").addEventListener("submit", checkAnswer);
 document.getElementById("hint").addEventListener("click", revealHint);
 
-
-
-
 function revealHint() {
   var hint_1 = document.getElementById("hint-1");
   var hint_2 = document.getElementById("hint-2");
@@ -23,7 +20,14 @@ function revealHint() {
 
 
 function checkAnswer() {
-    alert(gon.answer)
+  var x = gon.answer.map(descramble)
+  alert(x)
+}
+
+function descramble(item) {
+  var tmp = item.charCodeAt(0)
+  tmp = tmp - 3
+  return String.fromCharCode(tmp)
 }
 
 
