@@ -21,7 +21,7 @@ function revealHint() {
 
 function checkAnswer() {
   var x = gon.answer.map(descramble)
-  alert(x)
+  alert(x.join(''))
 }
 
 function descramble(item) {
