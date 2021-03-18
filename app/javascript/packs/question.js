@@ -19,9 +19,11 @@ function revealHint() {
 }
 
 
-function checkAnswer() {
+function checkAnswer(event) {
   var x = gon.answer.map(descramble)
-  alert(x.join(''))
+  x = x.join('')
+  var y = document.getElementById('guess').value
+  
 }
 
 function descramble(item) {
