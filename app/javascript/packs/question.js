@@ -23,6 +23,14 @@ function checkAnswer(event) {
   var x = gon.answer.map(descramble)
   x = x.join('')
   var y = document.getElementById('guess').value
+  y = y.match(/[a-zA-Z]+/g);
+  y = y.join('').toLowerCase();
+  if (y == x) {
+    alert('ya ' + y)
+  }
+  else {
+    alert('nah ' + y)
+  }
   
 }
 
