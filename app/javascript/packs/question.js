@@ -1,5 +1,8 @@
-document.getElementById("myGuess").addEventListener("submit", checkAnswer)
-document.getElementById("hint").addEventListener("click", revealHint)
+document.getElementById("myGuess").addEventListener("submit", checkAnswer);
+document.getElementById("hint").addEventListener("click", revealHint);
+
+
+
 
 function revealHint() {
   var hint_1 = document.getElementById("hint-1");
@@ -21,10 +24,9 @@ function revealHint() {
 
 function checkAnswer() {
   
-  var guess = document.getElementById("guess").value;
-  if (guess != 'George Washington'){
-    alert(guess)
   }
+ 
+  
 }
 
 
