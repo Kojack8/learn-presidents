@@ -23,10 +23,7 @@ function revealHint() {
 
 
 function checkAnswer() {
-  
-  }
- 
-  
+    alert(gon.answer)
 }
 
 

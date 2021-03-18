@@ -5,6 +5,9 @@ class QuestionsController < ApplicationController
 
   def show
     @question = Question.find(params[:id])
+    # takes the presidents name and sends it to js w/ Gon gem
+    @answer = @question.name
+    gon.answer = @answer
 
   end
 
