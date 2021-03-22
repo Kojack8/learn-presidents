@@ -22,5 +22,61 @@ Question.find_or_create_by(name: 'Thomas Jefferson') do |e|
   e.hint_3 = 'He drafted the Declaration of Independence of the United States.'
 end
 
+Question.find_or_create_by(name: '') do |e|
+  e.id = 4
+  e.years = 
+  e.hint_1 = 
+  e.hint_2 = 
+  e.hint_3 = 
+end
+
+Question.find_or_create_by(name: '') do |e|
+  e.id = 5
+  e.years = 
+  e.hint_1 = 
+  e.hint_2 = 
+  e.hint_3 = 
+end
+
+Question.find_or_create_by(name: '') do |e|
+  e.id = 6
+  e.years = 
+  e.hint_1 = 
+  e.hint_2 = 
+  e.hint_3 = 
+end
+
+Question.find_or_create_by(name: '') do |e|
+  e.id = 7
+  e.years = 
+  e.hint_1 = 
+  e.hint_2 = 
+  e.hint_3 = 
+end
+
+Question.find_or_create_by(name: '') do |e|
+  e.id = 8
+  e.years = 
+  e.hint_1 = 
+  e.hint_2 = 
+  e.hint_3 = 
+end
+
+Question.find_or_create_by(name: '') do |e|
+  e.id = 9
+  e.years = 
+  e.hint_1 = 
+  e.hint_2 = 
+  e.hint_3 = 
+end
+
+Question.find_or_create_by(name: '') do |e|
+  e.id = 10
+  e.years = 
+  e.hint_1 = 
+  e.hint_2 = 
+  e.hint_3 = 
+end
+
 
 
