@@ -34,7 +34,9 @@ function checkAnswer() {
   y = y.match(/[a-zA-Z]+/g);
   y = y.join('').toLowerCase();
   if (y == x) {
+    nxt = (next_page(gon.id));
     alert('ya ' + y)
+    window.location.replace(`/questions/${nxt}/`)
  
     
   }
@@ -48,6 +50,15 @@ function descramble(item) {
   var tmp = item.charCodeAt(0)
   tmp = tmp - 3
   return String.fromCharCode(tmp)
+}
+
+function next_page(nxt) {
+  if (nxt === 46) {
+    return 1;
+  }
+  else {
+    return gon.id + 1;
+  }
 }
 
 

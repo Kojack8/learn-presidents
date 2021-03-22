@@ -8,6 +8,7 @@ class QuestionsController < ApplicationController
     # takes the presidents name and sends it to js w/ Gon gem
     @answer = @question.name.downcase
     gon.answer = cipher(@answer)
+    gon.id = @question.id
 
   end
 
