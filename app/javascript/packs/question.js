@@ -35,13 +35,12 @@ function checkAnswer() {
   y = y.join('').toLowerCase();
   if (y == x) {
     nxt = (next_page(gon.id));
-    alert('ya ' + y)
     window.location.replace(`/questions/${nxt}/`)
  
     
   }
   else {
-    alert('nah ' + y)
+    alert('I\'m sorry, that\'s incorrect')
   }
   
 }
