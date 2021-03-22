@@ -1,4 +1,12 @@
-document.getElementById("myGuess").addEventListener("submit", checkAnswer);
+document.getElementById("guess_button").addEventListener("click", checkAnswer);
+
+
+document.getElementById("guess_input").addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') {
+    checkAnswer();
+  }
+});
+
 document.getElementById("hint").addEventListener("click", revealHint);
 
 function revealHint() {
@@ -19,14 +27,16 @@ function revealHint() {
 }
 
 
-function checkAnswer(event) {
+function checkAnswer() {
   var x = gon.answer.map(descramble)
   x = x.join('')
-  var y = document.getElementById('guess').value
+  var y = document.getElementById('guess_input').value
   y = y.match(/[a-zA-Z]+/g);
   y = y.join('').toLowerCase();
   if (y == x) {
     alert('ya ' + y)
+ 
+    
   }
   else {
     alert('nah ' + y)

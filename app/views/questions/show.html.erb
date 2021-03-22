@@ -26,13 +26,19 @@
 
 
 
-<%= form_with url: "/questions/#{@question.id + 1}
-", id: :myGuess, method: :get do |form| %>
+<%= form_with url: "/questions/#{@question.id + 1}", id: :myGuess, method: :get do |form| %>
   <br> <%= form.label :guess, "Enter guess:" %>
   <%= form.text_field :guess %><br>
   <%= form.submit "Submit" %>
   
 <% end %>
+
+<div>
+    <input type = "text_area", id = 'guess_input'>
+    <div>
+      <button id='guess_button'> Submit </button>
+    </div>
+</div>
 
 
 
