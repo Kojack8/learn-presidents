@@ -33,9 +33,9 @@ end
 Question.find_or_create_by(name: 'Donald Trump') do |e|
   e.id = 45
   e.years = '2017-2021'
-  e.hint_1 = "He had a famous public persona prior to his presidency. The most notable example was his hit television show, “The Apprentice.\”"
+  e.hint_1 = "He had a famous public persona prior to his presidency. The most notable example was his hit television show, \“The Apprentice.\”"
   e.hint_2 = 'He was the only president to be impeached twice. The second of which included ten pro-Impeachment votes from his own party, the most in history.'
-  e.hint_3 = 'His term as president was largely defined by his administrations response to the \”COVID-19 coronavirus pandemic.\” A disease that he himself contracted while in office.'
+  e.hint_3 = "His term as president was largely defined by his administrations response to the \”COVID-19 coronavirus pandemic.\” A disease that he himself contracted while in office."
 end
 
 Question.find_or_create_by(name: 'Joe Biden') do |e|
