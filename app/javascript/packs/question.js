@@ -28,19 +28,20 @@ function revealHint() {
 
 
 function checkAnswer() {
-  var x = gon.answer.map(descramble)
-  x = x.join('')
-  var y = document.getElementById('guess_input').value
-  y = y.match(/[a-zA-Z]+/g);
-  y = y.join('').toLowerCase();
-  if (y == x) {
+  var decode = gon.answer.map(descramble)
+  decode = decode.join('')
+  var input = document.getElementById('guess_input').value
+  input = input.match(/[a-zA-Z]+/g);
+  input = input.join('').toLowerCase();
+  if (input == decode) {
+    alert("Correct!")
     nxt = (next_page(gon.id));
     window.location.replace(`/questions/${nxt}/`)
  
     
   }
   else {
-    alert('I\'m sorry, that\'s incorrect')
+    alert('I\'m sorry, that\'s incorrect.')
   }
   
 }
@@ -53,7 +54,7 @@ function descramble(item) {
 
 function next_page(nxt) {
   if (nxt === 46) {
-    return 1;
+    return "";
   }
   else {
     return gon.id + 1;
