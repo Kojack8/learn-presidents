@@ -16,9 +16,9 @@ Sign up using any new username. There is no password authentication.
 
 ## Screenshots 
 
-<img src="./app/assets/images/screenshot_001.png" width="400">
-<img src="./app/assets/images/screenshot_002.png" width="400">
-<img src="./app/assets/images/screenshot_003.png" width="400">
+<img src="./app/assets/images/Screenshot_001.png" width="400">
+<img src="./app/assets/images/Screenshot_002.png" width="400">
+<img src="./app/assets/images/Screenshot_003.png" width="400">
 
 
 
