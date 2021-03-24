@@ -3,9 +3,10 @@
 ## Overview
 
 I envisioned this project as a way for students to study the chronological order of the President's of the United States and increase civic pride. Each president is listed by their numerical order and the consecutive years they served. For each question the user is afforded three hints of increasing obviousness which can be accessed with the 
-press of a button. To begin learning simply press 'Start Game' on the home screen.
+press of a button. To begin learning simply press 'Start Game' on the home screen. Currently, only one answer is allowed for each question. This is an imperfect system regarding the inconsistent use of middle names and initials for various presidents. Future versions will accepted common alternatives, but for now only the most popular phrasing is accepted.
 
-This web application was built primarily using Ruby on Rails. Answers are checked using Javascript with the assistance of the 'Gon' gem.
+This web application was built primarily using Ruby on Rails. Information about each president is stored within a Postgres database.
+Answers are checked using Javascript with the assistance of the 'Gon' gem.
 
 ***
 ## Live Demo
