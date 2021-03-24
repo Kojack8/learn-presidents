@@ -18,12 +18,12 @@ Question.find_or_create_by(name: 'Benjamin Harrison') do |e|
   e.id = 23
   e.years = '1889-1893'
   e.hint_1 = 'During his time in office electricity was installed in the White House.'
-  e.hint_2 = 'He signed the \”Sherman Antitrust Act,\” a law meant to prevent large monopolies and secure a competitive marketplace.'
+  e.hint_2 = "He signed the \”Sherman Antitrust Act,\” a law meant to prevent large monopolies and secure a competitive marketplace."
   e.hint_3 = 'His presidency is most distinctly marked by his predecessor and successor. '
 end
 
-Question.find_or_create_by(name: 'Grover Cleveland') do |e|
-  e.id = 24
+Question.find_or_create_by(id: 24) do |e|
+  e.name = 'Grover Cleveland'
   e.years = '1893-1897'
   e.hint_1 = 'He vetoed twice as many laws as any president who had come before him.'
   e.hint_2 = "The \”Baby Ruth\” candy bar is named after his daughter."

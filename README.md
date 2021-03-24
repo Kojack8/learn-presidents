@@ -1,24 +1,56 @@
-# README
+# Learn the President
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+This project primarily involves the use of active record associations to build and maintain, "a site similar to a private Eventbrite which allows users to create events and then manage user signups. Users can create events and send invitations and parties. Events take place at a specific date.
 
-* Ruby version
+It was created for The Odin Project's "Project: Associations" featured here: https://www.theodinproject.com/courses/ruby-on-rails/lessons/associations
+***
+## Live Demo
 
-* System dependencies
+You can try it out [here](https://nameless-wave-91417.herokuapp.com/)  
+Heroku is (in this case) a complimentary service and it may take up to sixty seconds to start a dyno on your initial launch. 
+___Thank you for your patience.___
 
-* Configuration
+Sign up using any new username. There is no password authentication.
 
-* Database creation
+## Screenshots 
 
-* Database initialization
+<img src="./app/assets/images/screenshot_001.png" width="400">
+<img src="./app/assets/images/screenshot_002.png" width="400">
+<img src="./app/assets/images/screenshot_003.png" width="400">
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+***
+## Installation 
+
+Clone the repo to your local machine: 
+```ruby
+$ git clone https://github.com/Kojack8/private_events
+```
+Navigate to the directory containing that repo:
+```ruby
+$ cd private_events/
+```
+Install the needed gems:
+```ruby
+$ bundle install
+```
+Install webpacker:
+```
+$ rails webpacker:install
+```
+Migrate the database:
+```ruby
+$ rails db:migrate
+```
+Finally, on root path run a local server:
+```ruby
+$ rails s
+```
+Open browser to view application:
+```ruby
+localhost:3000
+```
