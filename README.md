@@ -2,9 +2,8 @@
 
 ## Overview
 
-This project primarily involves the use of active record associations to build and maintain, "a site similar to a private Eventbrite which allows users to create events and then manage user signups. Users can create events and send invitations and parties. Events take place at a specific date.
+I envisioned this project as a way for students to study the chronological order of the President's of the United States.
 
-It was created for The Odin Project's "Project: Associations" featured here: https://www.theodinproject.com/courses/ruby-on-rails/lessons/associations
 ***
 ## Live Demo
 
@@ -12,7 +11,6 @@ You can try it out [here](https://nameless-wave-91417.herokuapp.com/)
 Heroku is (in this case) a complimentary service and it may take up to sixty seconds to start a dyno on your initial launch. 
 ___Thank you for your patience.___
 
-Sign up using any new username. There is no password authentication.
 
 ## Screenshots 
 
@@ -28,11 +26,11 @@ Sign up using any new username. There is no password authentication.
 
 Clone the repo to your local machine: 
 ```ruby
-$ git clone https://github.com/Kojack8/private_events
+$ git clone https://github.com/Kojack8/learn-presidents
 ```
 Navigate to the directory containing that repo:
 ```ruby
-$ cd private_events/
+$ cd learn-presidents/
 ```
 Install the needed gems:
 ```ruby
