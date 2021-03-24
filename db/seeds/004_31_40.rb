@@ -6,7 +6,7 @@ Question.find_or_create_by(name: 'Herbert Hoover') do |e|
   e.hint_3 = 'Eighth months after his inauguration the Black Friday stock market crashed occurred. His presidency largely remembered for the Great Depression.'
 end
 
-Question.find_or_create_by(name: 'Franklin D Roosevelt') do |e|
+Question.find_or_create_by(name: 'Franklin Roosevelt') do |e|
   e.id = 32
   e.years = '1933-1945'
   e.hint_1 = "He fought against the Great Depression with a series of 14 laws that would become known as his \”New Deal.\”"
@@ -14,7 +14,7 @@ Question.find_or_create_by(name: 'Franklin D Roosevelt') do |e|
   e.hint_3 = "\”The only thing we have to fear is fear itself.\”"
 end
 
-Question.find_or_create_by(name: 'Harry S Truman') do |e|
+Question.find_or_create_by(name: 'Harry Truman') do |e|
   e.id = 33
   e.years = '1945-1953'
   e.hint_1 = 'He helped form the North Atlantic Treaty Organization (NATO) to protect against the growing international threat of the Soviet Union.'
@@ -22,7 +22,7 @@ Question.find_or_create_by(name: 'Harry S Truman') do |e|
   e.hint_3 = 'He ordered the use of two atomic bombs in Japan. The first fell on Hiroshima and the second on Nagasaki.'
 end
 
-Question.find_or_create_by(name: 'Dwight D Eisenhower') do |e|
+Question.find_or_create_by(name: 'Dwight Eisenhower') do |e|
   e.id = 34
   e.years = '1953-1961' 
   e.hint_1 = 'He proposed the Civil Rights Act and his administration declared racial discrimination to be a national security issue.'
