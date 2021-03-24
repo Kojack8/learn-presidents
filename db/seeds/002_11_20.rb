@@ -70,7 +70,7 @@ Question.find_or_create_by(name: 'Rutherford B Hayes') do |e|
   e.hint_3 = 'His wife, Dolly, began the annual White House Easter egg roll.'
 end
 
-Question.find_or_create_by(name: 'James A Garfield') do |e|
+Question.find_or_create_by(name: 'James Garfield') do |e|
   e.id = 20
   e.years = '1881-1881'
   e.hint_1 = 'He’s the only sitting member of the House of Representatives ever to be elected president.'
