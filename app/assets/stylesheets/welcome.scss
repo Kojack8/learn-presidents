@@ -2,14 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-body {
-  background-color: white;
-  color: black;
+#welcome_banner_h {
+  font-size: 300%;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#B22234, #3C3B6E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-h1 {
-  background-color: white;
-  color: black;
+#welcome_text {
+  padding: 5px;
 }
 
 .start{

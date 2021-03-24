@@ -1,7 +1,16 @@
-<body style="text-align: center !important; width: 100%; margin: 0 auto; margin: auto !important;">
-<h1>This site is easiest way to learn every U.S.A. president.</h1>
-<p>Begin learning right now with 'Quick Start' or modify your learning experience using the 'Tools' now.</p>
 
-<%= link_to "Start Quiz", "questions/1/", class: 'start' %>
+<div class = 'pres_table'>
+  <div id = 'welcome_banner_h'>
+    <%= 'This site is easiest way to learn every U.S.A. president.'%>
+  </div>
+  <div id='welcome_text'>
+    <%= "Begin learning right now with \'Quick Start\' or choose where to start by clicking on \'Questions.\'"%>
+  </div> <br>
+  <div>
+    <%= link_to "Start Quiz", "questions/1/", class: 'start' %>
+
+    <%= link_to "Questions", "questions/", class: 'start' %>
+  </div>
+</div>
 
 

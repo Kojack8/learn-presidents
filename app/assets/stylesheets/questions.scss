@@ -3,14 +3,46 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 
+
+
+#pres_label{
+  font-weight: bold;
+  font-size: 115%;
+}
+
+#hint_table{
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  background-color: #fffbec;
+  border: 2px solid #3C3B6E;
+  outline: #4d6374 solid 4px;
+  text-align: center;
+  font-size: large;
+}
+
+#pres_number {
+  font-size: 700%;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#B22234, #3C3B6E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #hint-1 {
   display: none;
+  background-color: white;
+  border: 1px solid #3C3B6E;
 }
 
 #hint-2 {
   display: none;
+  background-color: white;
+  border: 1px solid #3C3B6E;
 }
 
 #hint-3 {
   display: none;
+  background-color: white;
+  border: 1px solid #3C3B6E;
 }

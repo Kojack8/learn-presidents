@@ -1,3 +1,8 @@
-<br><% @question.each do |question| %>>
-  <%= link_to "President # #{question.id}", question_path(question) %> <br>
-<% end %>
+<div class = 'pres_table' style='width: 15%; margin-left: 0px; text-align: left;'>
+  <%= 'Choose any president to start at:'%>
+  <div style = 'padding: 2px; background-color: white; border: 1px solid black;'>
+    <% @question.each do |question| %>
+      <%= link_to "President ##{question.id}", question_path(question) %> <br>
+    <% end %>
+  </div>
+</div>

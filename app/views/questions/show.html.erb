@@ -1,34 +1,41 @@
-<%= stylesheet_link_tag :questions %>
-
-<h1><%= "President number " + @question.id.to_s %><br>
-</h1>
-
-<h2><%= @question.name %></h2>
-
-<div>
-    <input type = "text_area", id = 'guess_input'>
-    <div>
-      <button id='guess_button'> Submit </button>
-    </div>
+<div class = 'pres_table'>
+  <div id = 'pres_label'>
+    <%= "PRESIDENT NUMBER" %><br>
+  </div>
+  <div id = 'pres_number'>
+    <%= @question.id %>
+  </div>
 </div><br>
 
-<div class = 'hint-button'>
-  <button id = 'hint'> HINT </button>
-</div>
 
-<div class = 'hint_table'>
-  <div id = 'hint-1'>
-    <%= @question.hint_1 %> 
+
+<div class='pres_table'>
+    <%= "Enter your guess: "%>
+    <input type = "text_area", id = 'guess_input'>
+    <button id='guess_button'> Submit </button>
+</div><br>
+
+<div id = 'hint_table'>
+  <div>
+    <%= "There are three hints of increasing obviousness for each president."%>
   </div>
-
-  <div id = 'hint-2'>
-    <%= @question.hint_2 %> 
+  <div class = 'hint-button'>
+    <button id = 'hint'> HINT </button>
   </div>
+  <br>
 
-  <div id = 'hint-3'>
-    <%= @question.hint_3 %> 
-  </div>
-
+  <div>
+    <div id = 'hint-1'>
+      <%= @question.hint_1 %>
+    </div>
+    <br>
+    <div id = 'hint-2'>
+      <%= @question.hint_2 %> 
+    </div>
+    <br>
+    <div id = 'hint-3'>
+      <%= @question.hint_3 %> 
+    </div>
 </div>
 
 

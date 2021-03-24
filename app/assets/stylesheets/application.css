@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  background-image: url('pres_seal.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+.pres_table{
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  background-color: #fffbec;
+  border: 2px solid #3C3B6E;
+  outline: #4d6374 solid 4px;
+  text-align: center;
+  font-size: large;
+}
