@@ -26,7 +26,7 @@ Question.find_or_create_by(name: 'Grover Cleveland') do |e|
   e.id = 24
   e.years = '1893-1897'
   e.hint_1 = 'He vetoed twice as many laws as any president who had come before him.'
-  e.hint_2 = 'The \”Baby Ruth\” candy bar is named after his daughter.'
+  e.hint_2 = "The \”Baby Ruth\” candy bar is named after his daughter."
   e.hint_3 = 'He was the only president to ever serve non-consecutive terms.'
 end
 

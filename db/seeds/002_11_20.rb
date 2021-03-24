@@ -19,7 +19,7 @@ Question.find_or_create_by(name: 'Millard Fillmore') do |e|
   e.years = '1850-1853'
   e.hint_1 = 'He was the last Whig to hold the office of president. '
   e.hint_2 = 'Some think he managed to postpone the Civil War as a result of the Compromise of 1850.'
-  e.hint_3 = 'He signed and enforced the unpopular \’Fugitive Slave Act\’ and in doing so destroyed his own political career.'
+  e.hint_3 = "He signed and enforced the unpopular \"Fugitive Slave Act\" and in doing so destroyed his own political career."
 end
 
 Question.find_or_create_by(name: 'Franklin Pierce') do |e|
@@ -27,7 +27,7 @@ Question.find_or_create_by(name: 'Franklin Pierce') do |e|
   e.years = '1853-1857'
   e.hint_1 = 'He completed the Gadsden Purchase acquiring large parts of southern Arizona and New Mexico.'
   e.hint_2 = 'He is the only elected president to be denied nomination for a second term by his own party.'
-  e.hint_3 = 'He supported and signed the \”Kansas-Nebraska Act,\” effectively repealing the Missouri Compromise.'
+  e.hint_3 = "He supported and signed the \”Kansas-Nebraska Act,\” effectively repealing the Missouri Compromise."
 end
 
 Question.find_or_create_by(name: 'James Buchanan') do |e|
@@ -58,7 +58,7 @@ Question.find_or_create_by(name: 'Ulysses S Grant') do |e|
   e.id = 18
   e.years = '1869-1877'
   e.hint_1 = 'His real first name is Hiram.'
-  e.hint_2 = 'He signed the \’Yellowstone National Park Protection Act,\’ creating the world’s first national park.'
+  e.hint_2 = "He signed the \’Yellowstone National Park Protection Act,\’ creating the world’s first national park."
   e.hint_3 = 'He led the Union Army as general during the Civil War.'
 end
 

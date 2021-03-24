@@ -18,14 +18,14 @@ Question.find_or_create_by(name: 'Thomas Jefferson') do |e|
   e.id = 3
   e.years = '1801-1809'
   e.hint_1 = 'He oversaw the Louisiana Purchase.'
-  e.hint_2 = 'He co-founded and was the first president to represent the \'Democratic-Republican Party\'.'
+  e.hint_2 = "He co-founded and was the first president to represent the \'Democratic-Republican Party\'."
   e.hint_3 = 'He drafted the Declaration of Independence of the United States.'
 end
 
 Question.find_or_create_by(name: 'James Madison') do |e|
   e.id = 4
   e.years = '1809-1817'
-  e.hint_1 = 'He contributed to \”The Federalist Papers\” alongside Alexander Hamilton and John Jay. '
+  e.hint_1 = "He contributed to \”The Federalist Papers\” alongside Alexander Hamilton and John Jay. "
   e.hint_2 = 'His Virginia Plan laid the groundwork for America’s bicameral legislature, the legislative branch of government made up of both the Senate and the House of Representatives.'
   e.hint_3 = 'As ‘Father of the Constitution,’ he drafted much of the landmark document, including the Bill of Rights.'
 end
@@ -57,7 +57,7 @@ end
 Question.find_or_create_by(name: 'Martin Van Buren') do |e|
   e.id = 8
   e.years = '1837-1841'
-  e.hint_1 = 'The phrase, \‘okay\’ was popularized by the use of his nickname, \“Old Kinderhook.\” As in, “Vote for OK”'
+  e.hint_1 = "The phrase, \"okay\" was popularized by the use of his nickname, \“Old Kinderhook.\” As in, \“Vote for OK\”"
   e.hint_2 = 'He is the only president to speak English as a second language.'
   e.hint_3 = 'He was the first president born a citizen of the United States of America. 
   '
@@ -66,7 +66,7 @@ end
 Question.find_or_create_by(name: 'William Henry Harrison') do |e|
   e.id = 9
   e.years = '1841-1841'
-  e.hint_1 = 'One of the most famous campaign slogans in history was his, \”Tippecannoe and Tyler, '
+  e.hint_1 = "One of the most famous campaign slogans in history was his, \”Tippecannoe and Tyler, too.\""
   e.hint_2 = 'He was the first president elected from the Whig party.'
   e.hint_3 = 'He passed away exactly one month after taking his Oath of Office, becoming the first sitting president to die.'
 end
