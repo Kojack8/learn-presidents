@@ -2,12 +2,18 @@
 
 ## Overview
 
-I envisioned this project as a way for students to study the chronological order of the President's of the United States.
+I envisioned this project as a way for students to study the chronological order of the President's of the United States and increase civic pride. Each president is listed by their numerical order and the consecutive years they served. For each question the user is afforded three hints of increasing obviousness which can be accessed with the 
+press of a button. To begin learning simply press 'Start Game' on the home screen.
+
+This web application was built primarily using Ruby on Rails. Answers are checked using Javascript with the assistance of the 'Gon' gem.
 
 ***
 ## Live Demo
 
 You can try it out [here](https://nameless-wave-91417.herokuapp.com/)  
+
+The design is currently primarily built for desktop use.
+
 Heroku is (in this case) a complimentary service and it may take up to sixty seconds to start a dyno on your initial launch. 
 ___Thank you for your patience.___
 
